@@ -6,4 +6,5 @@ COPY . .
 RUN npm run build
 
 FROM ngnix
+EXPOSE 80
 COPY --from=0 /app/build /usr/share/ngnix/html
