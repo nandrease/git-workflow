@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "git-workflow"
-  environment: "Gitworkflow-env"
+  env: "Gitworkflow-env"
   bucket_name: "elasticbeanstalk-us-east-2-568157342000"
   bucket_path: "git-workflow"
   on:
